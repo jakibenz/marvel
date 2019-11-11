@@ -1,6 +1,6 @@
 # React Challenge Using MARVEL API
 
-![ReactMarvel](./docs/mavel-logo.jpg)
+![ReactMarvel](./docs/mavel-logo.PNG)
 
 This is a sample React app which demonstrates how to use the marvel API with React Hooks to show a list of marvel characters and a list of details for each character.
 
