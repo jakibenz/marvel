@@ -23,7 +23,7 @@ This App must provide the follow functionalities:
 
  ```
  $ git clone https://github.com/jakibenz/marvel
- $ cd react-marvel-catalog
+ $ cd marvel
  $ npm install
  $ npm start
  ```
