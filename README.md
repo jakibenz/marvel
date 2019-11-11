@@ -12,7 +12,7 @@ This is a sample React app which demonstrates how to use the marvel API with Rea
 ## Screenshot
 ![Screenshot](./docs/screenshot.PNG)
 
-![Comic books](./docs/screenshot-details.PNG)
+![Comic books](./docs/screenshot-detail.PNG)
 
 ## What it does?
 This App must provide the follow functionalities:
