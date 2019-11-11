@@ -1,6 +1,6 @@
 # React Challenge Using MARVEL API
 
-![ReactMarvel](.\src\assets\images\marvel-logo.jpg)
+![ReactMarvel](./docs/marvel-logo.jpg)
 
 This is a sample React app which demonstrates how to use the marvel API with React Hooks to show a list of marvel characters and a list of details for each character.
 
@@ -10,30 +10,22 @@ This is a sample React app which demonstrates how to use the marvel API with Rea
  - [Tachyons](http://tachyons.io/)
 ---
 ## Screenshot
-![Screenshot](./docs/screenshot.png)
+![Screenshot](./docs/screenshot.PNG)
 
-![Comic books](./docs/screenshot-details.png)
+![Comic books](./docs/screenshot-details.PNG)
 
 ## What it does?
 This App must provide the follow functionalities:
  - A list of cards of characters loaded from the marvel API
  - Each card open a Modal with a collection of comics, stories and series
 
-## Possible implementations
- - List of events
- - More details for each comic book
- - Any ideas?
-
- ---
-
-
  # Get started
 
  ```
- $ git clone https://github.com/thiagoterleski/react-marvel-catalog
+ $ git clone https://github.com/jakibenz/marvel
  $ cd react-marvel-catalog
- $ yarn install
- $ yarn start
+ $ npm install
+ $ npm start
  ```
 
  This sample was made with *Create React App* [(more information)](https://github.com/facebookincubator/create-react-app/issues/new) see the doc for requirements.
