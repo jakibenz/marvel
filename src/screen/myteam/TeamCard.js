@@ -8,7 +8,7 @@ const TeamCard = ({ teamDetails, onDelete }) => {
     return (
         <main className="mw6 center">
             <article className="dt w-100 bb b--black-05 pb2 mt2" href="#0">
-                <div className="dtc w-100 w3-ns v-mid">
+                <div className="dtc w1 w3-ns v-mid">
                     <img src={image} alt="imageteam" className="ba b--black-10 db br2 w2 w3-ns h2 h3-ns" />
                 </div>
                 <div className="tl dtc v-mid pl3">
