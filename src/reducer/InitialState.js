@@ -2,7 +2,7 @@
 export const initialState = {
   characters: {
     items: [],
-    myteam: [],
+    myteam: (JSON.parse(sessionStorage.getItem('MyTeam')) || []),
     filter: '',
     isLoading: false,
     isError: false

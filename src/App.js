@@ -17,6 +17,7 @@ function App() {
 
   const { characters, character } = marvelData
 
+  //Mount characters fetched from MARVEL API and set the states
   useEffect(() => {
     const getMarvelCharacters = async () => {
       try {
@@ -40,6 +41,11 @@ function App() {
     dispatch({ type: 'CLOSE_CHARACTER_MODAL' })
     setModalShow(false)
   }
+
+  useEffect(() => {
+    sessionStorage.setItem('MyTeam', JSON.stringify(characters.myteam));
+    console.log(JSON.parse(sessionStorage.getItem('MyTeam')))
+  }, [characters.myteam, characters.myteam.length]);
 
   return (
     <Fragment>

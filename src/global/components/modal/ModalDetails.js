@@ -23,7 +23,9 @@ const ModalDetails = ({ show, onHide, details, isComicsLoaded, dispatch, info, m
 
     //chec if characters is already included in my team
     const isIncluded = (character) => {
-        return myTeam.includes(character)
+        const index = myTeam.findIndex(((item) => item.id === character.id))
+        if (index > -1) return true
+        else return false
     }
 
     return (

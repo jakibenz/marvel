@@ -34,7 +34,7 @@ const Card = ({ charDetails, onPress }) => {
                 className='dib bn br3 outline-transparent ma2 pa3 shadow-3 h5 w5 cover items-center grow'
                 style={{ backgroundImage: `url(${image})` }}
                 onMouseDown={handleMouseDown}
-                onClick={(e) => onPress(e)}
+                onClick={onPress}
             >
                 <div style={overlay}>
                     <div className='f6 f4-l ma3 moon-gray' style={textContainer}>
