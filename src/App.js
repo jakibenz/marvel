@@ -42,9 +42,9 @@ function App() {
     setModalShow(false)
   }
 
+  //save My Team to sessionStorage whenever it changes to retain data.
   useEffect(() => {
     sessionStorage.setItem('MyTeam', JSON.stringify(characters.myteam));
-    console.log(JSON.parse(sessionStorage.getItem('MyTeam')))
   }, [characters.myteam, characters.myteam.length]);
 
   return (
