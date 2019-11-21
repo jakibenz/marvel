@@ -44,6 +44,8 @@
   border-bottom-left-radius: 6px;
   border-bottom-right-radius: 6px;
   z-index: 2;
+  max-height: 90vh;
+  overflow: auto;
 }
 
 .react-autosuggest__suggestions-list {
