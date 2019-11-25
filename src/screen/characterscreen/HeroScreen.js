@@ -62,6 +62,12 @@ const HeroScreen = ({ characters, setModal, dispatch, currentPage, setCurrentPag
                 <img className='mw4' src={ErrorLogo} alt='404' />
             </div>
         )
+    } else if (characters.items.length === 0) {
+        return (
+            <div className='f1 flex justify-center pt6 pt7-ns'>
+                No Results Found
+            </div>
+        )
     }
 
     return (
